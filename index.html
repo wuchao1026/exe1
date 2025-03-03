@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>网站导航</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .nav-item {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .nav-item:hover {
+            transform: translateY(-2px);
+        }
+
+        .logo-container {
+            width: 60px;
+            height: 60px;
+            margin-right: 20px;
+        }
+
+        .logo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 10px 0;
+        }
+
+        .title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 8px;
+        }
+
+        .description {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-container">
+
+        <div class="nav-item">
+            <a href="https://www.123684.com/s/tLBjjv-EZh4H" class="logo-container">
+                <img src="images/logo1.png" alt="文件夹加密 Logo">
+            </a>
+            <div class="content">
+                <div class="title">文件夹加密</div>
+                <div class="description">可以把exe文件放到指定文件夹里面，打开之后眼目录就能加密</div>
+            </div>
+        </div>
+
+        <div class="nav-item">
+            <a href="https://www.123684.com/s/tLBjjv-oZh4H" class="logo-container">
+                <img src="images/logo2.png" alt="文件查重 Logo">
+            </a>
+            <div class="content">
+                <div class="title">文件查重</div>
+                <div class="description">扫描指定的文件夹，可以找到重复文件并可以选择一键删除重复，也能删除空文件夹</div>
+            </div>
+        </div>
+
+        <div class="nav-item">
+            <a href="https://www.123684.com/s/tLBjjv-mZh4H" class="logo-container">
+                <img src="images/logo3.png" alt="软件删除 Logo">
+            </a>
+            <div class="content">
+                <div class="title">软件删除</div>
+                <div class="description">可以把软件删除的很彻底，注册表信息也会删除，比360还好用</div>
+            </div>
+        </div>
+
+        <div class="nav-item">
+            <a href="https://www.123684.com/s/tLBjjv-1Zh4H" class="logo-container">
+                <img src="images/logo4.png" alt="文件移动 Logo">
+            </a>
+            <div class="content">
+                <div class="title">文件移动</div>
+                <div class="description">文件移动位置，但里面的软件也不会受到影响</div>
+            </div>
+        </div>
+
+        <div class="nav-item">
+            <a href="https://www.123684.com/s/tLBjjv-4Zh4H" class="logo-container">
+                <img src="images/logo5.png" alt="右键管理 Logo">
+            </a>
+            <div class="content">
+                <div class="title">右键管理</div>
+                <div class="description">右键菜单太多没用的，可以直接删除</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
